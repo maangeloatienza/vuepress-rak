@@ -2,6 +2,7 @@
     <div class="container">
         <div class="mt-3 mb-3">
             <div v-if="!Array.isArray(product.image)" class="text-center">
+                <h1 class="text-left"></h1>
                 <img 
                     v-bind:src="`${product.image.link}`"
                     v-bind:alt="`${product.image.meta}`"
@@ -10,13 +11,17 @@
             </div>
 
             <div v-if="Array.isArray(product.image)" class="text-center">
-                <div v-for="image in product.image">            
-                    <img 
-                        v-bind:src="`${image.link}`"
-                        v-bind:alt="`${image.meta}`"
-                        class="img-fluid img-thumbnail">
+                <div>
+                    <h1 class="text-left"></h1>
+                    <div v-for="image in product.image">            
+                        <img 
+                            v-bind:src="`${image.link}`"
+                            v-bind:alt="`${image.meta}`"
+                            class="img-fluid img-thumbnail">
+                    </div>
+                    <p class=""> <b>Figure 2:</b> {{product.caption}}</p>
+
                 </div>
-                <p class=""> <b>Figure 2:</b> {{product.caption}}</p>
 
             </div>
 
