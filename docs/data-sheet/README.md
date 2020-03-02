@@ -16,6 +16,9 @@ layout : Layout
         }">
 </CustomProduct>
 
+
+<ContentBody>
+
 ## Product Background
 
 The concentrator module **RAK831** is designed for a wide variety of applications like **Smart Metering**, IoT (Internet of Things) and **M2M** (Machine-to-machine) applications. It is a multi- channel high performance Transceiver module designed to receive several LoRa® packets simultaneously using different spreading factors on multiple channels. The concentrator module RAK831 can be integrated into a gateway as a complete RF front-end of this gateway. It provides the possibility to enable robust communication between a LoRaWAN™ Gateway and a huge amount of LoRa® end-nodes spread over a wide range of distance. The RAK831 needs a host system for proper operation.
@@ -30,22 +33,28 @@ End-point nodes (e.g. sensor nodes) can change frequency with each transmission 
 
 Applications possible with the RAK831 include Smart Metering ,Wireless Star Networks, Home,Building,Industrial automation, Remote Control, Wireless Sensors Network, M2M, IoT and Wireless Alarm and Security Systems.
 
+</ContentBody>
+
+<ContentBody>
+
 ## Product Features
-  * **Compact size** 80 mm 50 mm x 5 mm
-  * LoRaWAN™ modulation technology
-  * **Frequency bands**: 433 MHz,470 MHz, 868 MHz,915 MHz
-  * Orthogonal spreading factors
-  * **Minimum Sensitivity**: -142.5 dBm
-  * **Maximum Link Allotment**: 162 dB
-  * SPI interface
-  * SX1301 base band processor
-  * Emulates up to forty-nine (49) LoRa® demodulators
-  * Twelve (12) parallel demodulation paths
-  * One (1) (G) FSK demodulator
-  * Two (2) SX1257 Tx/Rx front-ends High frequency
-  * Two (2) x SX1255 Tx/Rx front-ends low frequency
-  * **Supply voltage**: 5 Volts DC
-  * Optimized RF Interface 50
-  * Up to 23 dBm output power
-  * Optional GPS receiver
-  * **Line of Sight Range**: up to 15 kilometers
+* **Compact size** 80 mm 50 mm x 5 mm
+* LoRaWAN™ modulation technology
+* **Frequency bands**: 433 MHz,470 MHz, 868 MHz,915 MHz
+* Orthogonal spreading factors
+* **Minimum Sensitivity**: -142.5 dBm
+* **Maximum Link Allotment**: 162 dB
+* SPI interface
+* SX1301 base band processor
+* Emulates up to forty-nine (49) LoRa® demodulators
+* Twelve (12) parallel demodulation paths
+* One (1) (G) FSK demodulator
+* Two (2) SX1257 Tx/Rx front-ends High frequency
+* Two (2) x SX1255 Tx/Rx front-ends low frequency
+* **Supply voltage**: 5 Volts DC
+* Optimized RF Interface 50
+* Up to 23 dBm output power
+* Optional GPS receiver
+* **Line of Sight Range**: up to 15 kilometers
+
+<ContentBody>

@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center">
+    <div class="text-center m-5">
         <button class="btn btn-primary">
             <a :href='"{{button.link}}"' class="text-white"> {{button.name}} </a>
         </button>

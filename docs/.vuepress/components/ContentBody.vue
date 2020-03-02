@@ -1,6 +1,8 @@
 <template>
-    <div class="container">
-        <Content slot-key='content-body'></Content>
+    <div class="">
+        <div class="mb-5">
+            <slot></slot>
+        </div>
     </div>
 </template>
 

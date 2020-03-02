@@ -11,17 +11,23 @@
         }">
 </CustomProduct> 
 
+<ContentBody>
+
 ## What do you need ?
   1. RAK7246G - LoRaWAN™ Developer Gateway
   2. 16GB SD Card + Card Reader (included)
   3. 5V at least 1.5A Micro USB Power Supply (optional)
   4. A Windows/Mac OS/Linux Computer
 
+</ContentBody>
+
 <CustomButton
     v-bind:button="{
         name : 'Buy a RAK7246G - LoRaWAN™ Developer Gateway',
         link : '/'
     }"/>
+
+<ContentBody>
 
 ## What's included in the package ?
 
@@ -56,5 +62,6 @@
             }
         ],
         caption : 'Package Contents'
-        }">
-</CustomProduct> 
+        }"/>
+
+</ContentBody>
