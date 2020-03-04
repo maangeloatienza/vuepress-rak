@@ -10,9 +10,16 @@ module.exports = {
     themeConfig: {
         search: true,
         searchMaxSuggestions: 10,
+        lastUpdated: 'Last Updated',
+        repo: 'maangeloatienza/vuepress-rak',
+        docsRepo: 'maangeloatienza/vuepress-rak',
+        docsDir: 'docs',
+        docsBranch: 'master',
+        editLinks: true,
+        editLinkText: 'Edit this on our Github Page',
         nav: [
             { text: 'QuickStart', link: '/rak7246g-lorawan-developer-gateway/' },
-            { text: 'DataSheet', link: '/data-sheet/' },
+            { text: 'DataSheet', link: '/data-sheet/rak831/' },
             { text: 'RUI', link: '/rui/' },
             { text: 'Downloads', link: '/downloads/' }
         ],
@@ -36,6 +43,7 @@ module.exports = {
                 {
                     title : 'LoRa Gateway',
                     children : [
+                        
                         {
                             title : 'RAK831',
                             children : [
